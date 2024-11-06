@@ -1,4 +1,4 @@
-const contarNumerosInteiros = require('../contagem'); // importando a função
+const contarNumerosInteiros = require('../algs/contagem'); // importando a função
 
 test('deve contar os números inteiros no array', () => {
     const resultado = contarNumerosInteiros([1.5, 2, 3.0, 4, 5.5]);

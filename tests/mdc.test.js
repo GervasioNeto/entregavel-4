@@ -1,4 +1,4 @@
-const calcularMDC = require('../mdc');
+const calcularMDC = require('../algs/mdc');
 
 test('deve retornar o MDC de dois números positivos', () => {
     expect(calcularMDC(56, 98)).toBe(14); 

@@ -8,7 +8,7 @@ function contarNumerosInteiros(numeros) {
         }
     }
     
-    return count; // Retorna o resultado
+    return count; 
 }
 
-module.exports = contarNumerosInteiros; // Exporta a função
+module.exports = contarNumerosInteiros; 
