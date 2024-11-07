@@ -12,10 +12,4 @@ function isPrime(num) {
     return true;
 }
 
-let numero = 5; // Digite o número para verificar
-
-if (isPrime(numero)) {
-    console.log(numero + " é primo.");
-} else {
-    console.log(numero + " não é primo.");
-}
+module.exports = isPrime;
