@@ -17,3 +17,8 @@ test('deve ordenar um array com números negativos e positivos', () => {
     const array = [3, -2, -1, 5, 4];
     expect(quickSort(array)).toEqual([-2, -1, 3, 4, 5]);
 });
+
+test('deve ordenar o array de forma crescente', () => {
+    const array = [6, 8, 4, 5, 3];
+    expect(quickSort(array)).toEqual([3, 4, 5, 6, 8]);
+});
